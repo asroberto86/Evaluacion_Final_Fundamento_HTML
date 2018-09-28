@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <svg width="500px" height="250px" viewBox="0 0 500 250" >
+        <image xlink:href="../img/logo.svg"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Nombre: Roberto Omar Álvarez Sánchez</h2>
+      <h3>Lugar de Nacimiento: Lima-Perú</h3>
+    </header>
+    <section>
+      <a href="../index.html" target="_blank">Inicio</a> |
+      <a href="../menu/educacion.html" target="_blank">Educación</a> |
+      <a href="../menu/experiencia.html" target="_blank">Experiencia</a>
+      <h2>Educación</h2>
+      <table border="1" style="text-align:center">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1998</td>
+            <td>"Colegio Parroquial San Ignacio del Loyola"</td>
+            <td>Lima - Perú</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2003</td>
+            <td>"Colegio Honores de Breña"</td>
+            <td>Lima - Perú</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>"Universidad Tecnologica del Perú"</td>
+            <td>Lima - Perú</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+      <form autocomplete="on" name="Agregar Estudio">
+        <legend>Agregar Estudios</legend>
+        <p><label for="anio"><strong>Año:</strong></label>
+        <input type="date" name="anio" id="anio"></p>
+        <p><label for="institucion"><strong>Institución:</strong></label>
+        <input type="text" name="institucion" id="instotucion" required></p>
+        <p><label for="lugar"><strong>Lugar:</strong></label><br>
+        <textarea name="lugar" id="lugar"rows="5" cols="50"></textarea></p>
+        <p><label for="enviar"></label>
+        <input type="submit" id="enviar"></p>
+      </form>
+    </section>
+    <footer>
+      <h2>Contacto:</h2>
+      <ul>
+        <li>Correo: as.roberto86@gmail.com <a href="https://www.facebook.com/robertoomar.alvarezsanchez" target="_blank"> <img src="../img/facebook.jpg" alt="Facebook" title="Facebook Roberto" ></a></li>
+        <li>Telefono: 979701314</li>
+        <li>Direccion: Jiron Coronel Miguel Baquero 280  </li>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.9336454936756!2d-77.04679398468939!3d-12.048086491466425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8ce19629ec9%3A0xbb7391bf317cdc67!2sFrancisco+Retes+280%2C+Cercado+de+Lima+15082!5e0!3m2!1ses-419!2spe!4v1538108605969" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </ul>
+    </footer>
+  </body>
+</html>
